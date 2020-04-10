@@ -28,7 +28,7 @@ BODY.index 					{ background-color:#e48382; background-image: url('../assets/bac
 .index .question				{ display: flex; flex-direction: column; width: 50%; margin-bottom: 50px; user-select: none; -webkit-user-select:none; }
 .index .answer 				{ width: 70%; margin-left: 30%; margin-bottom: 50px; }
 .index .answer .person 	{ color: blue; }
-.index .person 				{ font-family: Roboto; font-size: 24px; line-height: 24px; color: rgb(9, 255, 0); }
+.index .person 				{ font-family: Roboto; font-size: 24px; line-height: 24px; color: rgb(9, 255, 0); text-shadow: 1px 1px 5px black; }
 .index .text 						{ font-family: Roboto,'Times New Roman', Times, serif; font-size: 54px; line-height: 62px; color: #000000; display:inline-block; }
 
 
