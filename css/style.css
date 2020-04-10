@@ -38,7 +38,7 @@ BODY.projects 						{ background: #E9DBED; }
 .projects .section .header 		{ max-width:1000px; text-align:center; margin: 0 auto; padding:40px 20px; }
 .projects .section .body 			{ max-width:1000px; text-align:center; margin: 0 auto; padding:20px; }
 .projects .section .body IMG 	{ text-align:center; width:100%; height:auto; }
-.projects .section .footer 		{ max-width:1000px; text-align:center; margin: 0 auto; padding:40px 20px; }
+.projects .section .footer 		{ max-width:1000px; text-align:center; margin: 0 auto; padding:40px 20px; text-shadow:1px 1px 5px black: }
 
 .projects .section1 .header 	{ font-family: Secular One; font-size: 63px; }
 .projects .section1 .body		{}
