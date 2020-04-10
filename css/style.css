@@ -8,6 +8,7 @@ A 								{ color: black; }
 BODY 						{ width:100%; height:100%; margin:0px; padding:0px; color: #000000; }
 .container 				{ width: 100%; }
 .inline						{ display:inline-block; }
+.header {font-family: Roboto;}
 /*.img							{ transition: all 1s ease-in-out; }*/
 
 /*.img.mirror 				{ transition: all 1s ease-in-out;  transform: scale(-1, 1);  filter: grayscale(100%); }*/
@@ -40,11 +41,11 @@ BODY.projects 						{ background: #E9DBED; }
 .projects .section .body IMG 	{ text-align:center; width:100%; height:auto; }
 .projects .section .footer 		{ max-width:1000px; text-align:center; margin: 0 auto; padding:40px 20px;}
 
-.projects .section1 .header 	{ font-family: Secular One; font-size: 63px; }
+.projects .section1 .header 	{ /*font-family: Secular One;*/ font-size: 63px; }
 .projects .section1 .body		{}
 .projects .section1 .body IMG {}
 .projects .section1 .footer 		{ font-family: Roboto; font-size: 69px; }
-
+.footer {font-family: Roboto;}
 .projects .section2 .body 		{}
 .projects .section2 .body IMG {}
 
