@@ -53,12 +53,12 @@ BODY.projects 						{ background: #E9DBED; }
 .projects .section3 .body IMG {}
 
 .projects .section4 .body 		{ display: flex; }
-.projects .section4 .header		{ display: flex; flex-direction: column; font-family: Roboto; font-size: 61px; width:20%; justify-content: center; justify-content: center; align-items: center; align-content: center; }
+.projects .section4 .header		{ display: flex; flex-direction: column; /*font-family: Roboto;*/ font-size: 61px; width:20%; justify-content: center; justify-content: center; align-items: center; align-content: center; }
 .projects .section4 .rotate 		{ transform: rotate(-90deg); }
 .projects .section4 .imgs		{ display: flex; flex-direction: column; }
 .projects .section4 .img 			{ padding:20px 10px; }
 
-.projects .section5 .header		{ font-family: Roboto; font-size: 69px; line-height: 81px; }
+.projects .section5 .header		{ /*font-family: Roboto; font-size: 69px;*/ line-height: 81px; }
 .projects .section5 .body 		{}
 .projects .section5 .body IMG {}
 
