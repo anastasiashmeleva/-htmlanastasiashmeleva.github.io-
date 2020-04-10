@@ -29,7 +29,7 @@ BODY.index 					{ background-color:#e48382; background-image: url('../assets/bac
 .index .answer 				{ width: 70%; margin-left: 30%; margin-bottom: 50px; }
 .index .answer .person 	{ color: blue; }
 .index .person 				{ font-family: Unica; font-size: 24px; line-height: 24px; color: rgb(9, 255, 0); }
-.index .text 						{ font-family: 'Times New Roman', Times, serif; font-size: 54px; line-height: 62px; color: #000000; display:inline-block; }
+.index .text 						{ font-family: Roboto,'Times New Roman', Times, serif; font-size: 54px; line-height: 62px; color: #000000; display:inline-block; }
 
 
 /* projects */
