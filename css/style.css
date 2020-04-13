@@ -10,6 +10,7 @@ BODY 						{ width:100%; height:100%; margin:0px; padding:0px; color: #000000; }
 .inline						{ display:inline-block; }
 .header {font-family: Roboto;}
 .footer {font-family: Roboto;}
+.section { position:relative; }
 /*.img							{ transition: all 1s ease-in-out; }*/
 
 /*.img.mirror 				{ transition: all 1s ease-in-out;  transform: scale(-1, 1);  filter: grayscale(100%); }*/
@@ -25,14 +26,14 @@ BODY 						{ width:100%; height:100%; margin:0px; padding:0px; color: #000000; }
  
 /* index */
 BODY.index 					{ background-color:#e48382; background-image: url('../assets/background.jpg'); background-repeat:no-repeat; background-attachment:fixed; background-size:cover; }
-.index .section 			{ display: flex; overflow:hidden; }
-.index .section.three 		{ flex-direction: column; padding: 35px; }
+.index .section 			{  }
+.index .section.three 		{ z-index:2;  display: flex; overflow:hidden; flex-direction: column; padding: 35px; }
 .index .question			{ display: flex; flex-direction: column; width: 50%; margin-bottom: 50px; user-select: none; -webkit-user-select:none; }
 .index .answer 				{ width: 70%; margin-left: 30%; margin-bottom: 50px; }
 .index .answer .person 		{ color: blue; text-shadow: none; }
 .index .person 				{ font-family: Roboto; font-size: 24px; line-height: 24px; color: rgb(9, 255, 0); text-shadow: 1px 1px 40px black; }
 .index .text 				{ font-family: Roboto,'Times New Roman', Times, serif; font-size: 54px; line-height: 62px; color: #000000; display:inline-block; }
-
+.explosion 					{ z-index:1; margin:0 auto;     position: relative; width: 440px; height:320px;position:relative;  }
 
 /* projects */
 BODY.projects 					{ background: #E9DBED; }
@@ -141,7 +142,65 @@ BODY.music { background:#02B4EC; background-image: url('../assets/music.jpg'); b
 	.music .section .imgs 	{ padding:0px; }
 	.music .section .img 	{ width:calc(100%/2 - 20px); }
 
-
-
-	
 }
+
+
+
+
+
+/* 2. Explosion/Images/Links Structure and Text
+--------------------------------------- */
+#explosion1,#explosion2,#explosion3,#explosion4,#explosion5,#explosion6 {
+  position: fixed;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+}
+.explosion-byline,
+.images-byline {
+  position: fixed;
+  top: 63%;
+  left: 10%;
+  color: white;
+  max-width: 22%;
+  opacity: 0;
+}
+.images-byline-2 {
+  text-align: center;
+  position: fixed;
+  top: 93%;
+  left: 25%;
+  color: white;
+  width: 50%;
+  opacity: 0;
+}
+
+/* 3. Explosion Keyframe
+--------------------------------------- */
+#domExplosionList1,#domExplosionList2,#domExplosionList3,#domExplosionList4,#domExplosionList5,#domExplosionList6  {
+  position: fixed;
+  width: 270px;
+  top: 100%;
+  right: 15%;
+  opacity: 0;
+}
+.dom-explosion-item {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+}
+.dom-explosion-item IMG { width:100%; height:100%; }
+.dei-1  { top: 0;   left: 0;  }
+.dei-2  { top: 0;   left: 110px; }
+.dei-3  { top: 0;   left: 220px; }
+.dei-4  { top: 0;   left: 330px; }
+.dei-5  { top: 110px;   left: 0;  }
+.dei-6  { top: 110px;   left: 110px; }
+.dei-7  { top: 110px;   left: 220px; }
+.dei-8  { top: 110px;   left: 330px; }
+.dei-9  { top: 220px;   left: 0;  }
+.dei-10 { top: 220px;   left: 110px; }
+.dei-11 { top: 220px;   left: 220px; }
+.dei-12 { top: 220px;   left: 330px; }
+
