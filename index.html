@@ -1,147 +1,417 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html class="html">
+
 <head>
-    <meta charset="UTF-8">
-    <title>All Possible Futures</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+
+	<meta charset="UTF-8"/>
+
+	<title>ScrollMe - For simple scrolling effects</title>
+	<meta name='description' content='ScrollMe is a jQuery library for adding simple scrolling effects to web pages'>
+
+	<link rel="author" title="Nick Pearson" href="http://nckprsn.com/">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="http://scrollme.nckprsn.com/style.css" media="screen">
+
+	<script src='http://scrollme.nckprsn.com/js/prefixfree.min.js'></script>
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+	<script src='http://scrollme.nckprsn.com/js/jquery.scrollme.js'></script>
+
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="icon" type="image/png" href="favicon.png">
+
 </head>
-<body class="index">
 
+<body>
 
+	<section id="scrollme" class="section section_intro scrollme">
 
-    <div class="container">
-        <div class="section three">
+		<div class="wrapper">
 
-            <div class="question" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">Who am I?</div></div>
-            </div>
-            <div class="answer" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">I’m a beginning graphic designer.</div></div>
-            </div>
+			<h1
+				class="fittext animateme"
+				data-when="exit"
+				data-from="0"
+				data-to="0.75"
+				data-opacity="0"
+				data-translatey="-250"
+			>
+				ScrollMe
+			</h1>
+			<h3
+				class="animateme"
+				data-when="exit"
+				data-from="0"
+				data-to="0.75"
+				data-opacity="0"
+				data-translatey="-150"
+			>
+				A jQuery plugin for adding simple scrolling effects to web pages
+			</h3>
 
-            <div class="question" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">What do I do? Do I do something special? </div></div>
-            </div>
-            <div class="answer" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">Yes, I do . I design posters, booklets, brochures, and videos. I’m really interested in working with typefaces because they represent a specific era and style themselves.</div></div>
-            </div>
+		</div><!-- wrapper -->
 
-            <div class="question" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">Do I know when the first typeface originated? How does it work?</div></div>
-            </div>  
-            <div class="answer" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">I’ve read that the first writings were carved in stone in Ancient Rome. We can meet them on different product packages, signboards, screens, TVs and mobile phones on a daily basis.</div></div>
-             </div>
+	</section>
 
-            <div class="question" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">Do I know when the first typeface originated? How does it work?</div></div>
-            </div>  
-            <div class="answer" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">You know, every font plays his role in their surrounding. Also, our perception depends on the proper intonation of the listener. The typography is the same intonation and it’s a visible language which connects a writer with his reader. At the present time, the typeface doesn’t need to be unnoticeable anymore for transferring information or meaning of the text. It’s become an art object that can be expressive, amusing, provocative and cheeky at his best.</div></div>
-            </div>
+	<header class="header">
 
-            <div class="question" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">Do I actually communicate through it? Do I really need it?</div></div>
-            </div>  
-            <div class="answer" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">In my case I do, I communicate to most people through my works via typography approach.</div></div>
-            </div>
+		<div class="wrapper">
 
-            <div class="question" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">Have I accomplished any <a href="projects.html">projects</a>? If yes, are they successfull enough or they are not because they were just a wast of time.</div></div>
-            </div>
-            <div class="answer" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">Yes, I do. I’d like to share with my successful works that are BLAH, BLAH, BLAH and AND COLOR. The purpose of the first project was about transferring a person’s speech his intonation and pauses through typography. I applied an overlapping effect in order to depict some hesitation and stumbling by duplicating the person’s story in InDesign on A3 format. For the cover was used a yellow color because most of Sara De Bondt contains the yellow hue. The second well-done piece was a video teaser that I had to create for the exhibition of Miles Aldridge «Taste The Color» that was held at The Lumiere Brothers Center for Photography. I applied Candice typeface and dot polka pattern because those things were illustrating Aldridge’s personality, approach, and style of his photographs.</div></div>
-            </div>
+			<nav class="nav nav_onpage">
+				<ul class="plain clearfix">
+					<li class="nav_item_text"><a href="#about">About</a></li>
+					<li class="nav_item_text"><a href="#usage">Usage</a></li>
+					<li class="nav_item_text"><a href="#options">Options</a></li>
+				</ul>
+			</nav>
 
-            <div class="question" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">Do I actually have other interests or I don’t?</div></div>
-            </div>  
-            <div class="answer" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">Yes, I do. I have a few hobbies such as: <a href="travelling.html">travelling,</a> <a href="photography.html">photography</a> and <a href="music.html">music.</a> Regarding the <a href="photography.html"></a>photography, I like taking pictures and then edit them. In terms of the traveling I’m found of capturing moments and collecting tickets and things that keep memories which in future will be warming my soul.</div></div>
-            </div>
+			<nav class="nav nav_offsite">
+				<ul class="plain clearfix">
+					<li class="nav_item_button button button_alt"><a href="http://codepen.io/nckprsn/pen/IGpmc"><span class="longtext">Play on </span>CodePen</a></li>
+					<li class="nav_item_button button"><a href="https://github.com/nckprsn/scrollme"><span class="longtext">Download on </span>GitHub</a></li>
+				</ul>
+			</nav>
 
-            <div class="question" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">Do I like to hang out with friends or I don’t?</div></div>
-            </div>  
-            <div class="answer" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">Yes, I do because sometimes need to be surrounded by people.</div></div>
-            </div>
+		</div><!-- wrapper -->
 
-            <div class="question" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">Do I actually like talking a lot?</div></div>
-            </div>  
-            <div class="answer" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">No, I don’t because for a while a lot of communication makes me feel exhausted and I need some privacy in order to absorb the whole information.</div></div>
-            </div>
-	    
-			<div class="question" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-				<div class="person"><div class="inline">Anastasia:</div></div>
-				<div class="text"><div class="inline">If I weren’t doing design what would I be doing?</div></div>
-			</div>
-			<div class="answer" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">Probably, I would be singing or dancing because there are other awesome skills that you learn by yourself or additional courses.</div></div>
-            </div>
-		
-			<div class="question" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-				<div class="person"><div class="inline">Anastasia:</div></div>
-				<div class="text"><div class="inline">What's the most challenging part of the field?</div></div>
-			</div>
-			<div class="answer" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-                <div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">Perhaps, the most complicated part is when you out of ideas because it’s a struggle of having this creative crisis for every artist or designer. At that moment you don’t know where to get this inspiration from.</div></div>
-            </div>
-		
-			<div class="question" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-				<div class="person"><div class="inline">Anastasia:</div></div>
-				<div class="text"><div class="inline">How am I dealing with the creative crisis? </div></div>
-			</div>
-			<div class="answer" class="scrollme animateme" data-when="enter" data-from="0.5" data-to="0" data-crop="false" data-opacity="0" data-scale="1.5">
-				<div class="person"><div class="inline">Anastasia:</div></div>
-                <div class="text"><div class="inline">I begin doing a lot of research and making notes while digging the information from the internet.</div></div>
-			</div>
+	</header>
+
+	<section class="section">
+
+		<div class="wrapper">
+
+			<h2 id="about">About</h2>
+
+			<div class="columns columns_content">
+
+				<div class="column column_large">
+
+					<h3>ScrollMe is a jQuery plugin for adding simple scrolling effects to web pages.</h3>
+
+					<p>As you scroll down the page ScrollMe can scale, rotate, translate and change the opacity of elements on the page. It's easy to set up and not a single line of javascript is required.</p>
+					<p>Why just these properties? Because <a href="http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/">browsers can animate them quickly</a>, keeping scrolling silky smooth.</p>
+
+				</div><!-- column -->
+
+				<div class="column column_right column_medium">
+
+					<ul class="effects plain clearfix scrollme">
+						<li class="effect">
+							<div
+								class="effect_box effect_box_opacity animateme"
+								data-when="view"
+								data-from="0.5"
+								data-to="0"
+								data-opacity="0"
+							></div>
+						</li>
+						<li class="effect">
+							<div
+								class="effect_box effect_box_scale animateme"
+								data-when="view"
+								data-from="0.55"
+								data-to="0.05"
+								data-scale="0"
+							></div>
+						</li>
+						<li class="effect">
+							<div
+								class="effect_box effect_box_rotate animateme"
+								data-when="view"
+								data-from="0.6"
+								data-to="0.1"
+								data-rotatex="-90"
+								data-rotatey="90"
+								data-rotatez="-90"
+							></div>
+						</li>
+						<li class="effect">
+							<div
+								class="effect_box effect_box_translate animateme"
+								data-when="view"
+								data-from="0.65"
+								data-to="0.15"
+								data-translatex="400"
+								data-translatey="400"
+							></div>
+						</li>
+					</ul>
+
+				</div><!-- column -->
+
+				<div class="column column_large">
+
+					<h3>ScrollMe isn't</h3>
+
+					<ul>
+						<li>An excuse to add a bajillion scrolling effects to your pages. Use it sparingly or performance will suffer.</li>
+						<li>A framework for building sites like <a href="http://discover.store.sony.com/be-moved/">this</a> or <a href="http://www.flatvsrealism.com/">this</a>. ScrollMe is less complex than that; it's just for adding that little something extra.</li>
+						<li>A magic wand. This stuff will only work in browsers that support the corresponding CSS properties.</li>
+					</ul>
+
+				</div><!-- column -->
+
+			</div><!-- columns -->
+
+		</div><!-- wrapper -->
+
+	</section>
+
+	<hr>
+
+	<section class="section">
+
+		<div class="wrapper">
+
+			<h2 id="usage">Usage</h2>
+
+			<div class="columns columns_content">
+
+				<div class="column column_large">
+
+					<h3>ScrollMe uses a simple declarative syntax: just include jQuery + ScrollMe, add some bits to your markup and ScrollMe will do the rest.</h3>
+
+					<p>Two classes are used to define the elements that ScrollMe works with: <code class="code_value">scrollme</code> &amp; <code class="code_value">animateme</code>.</p>
+					<p>The <code class="code_value">scrollme</code> class defines a container for animated elements. The progression of the animations is based on the scrolling through this element.</p>
+					<p>The <code class="code_value">animateme</code> class defines the animated elements. Any number of these can be added within a container element. These elements also take the options that describe how and when the animation occurs.</p>
+					<p>Both <code class="code_value">scrollme</code> and <code class="code_value">animateme</code> classes can be applied to the same element if desired.</p>
+
+				</div><!-- column -->
+
+				<div class="column column_medium">
+
+<pre
+	class="animateme scrollme"
+	data-when="enter"
+	data-from="0.75"
+	data-to="0"
+	data-opacity="0"
+	data-translatex="400"
+><code>&lt;<span class="code_tag">div</span> <span class="code_attribute">class</span>=<span class="code_value">"scrollme"</span>&gt;
+    &lt;<span class="code_tag">div</span>
+        <span class="code_attribute">class</span>=<span class="code_value">"animateme"</span>
+        <span class="code_attribute">data-when</span>=<span class="code_value">"enter"</span>
+        <span class="code_attribute">data-from</span>=<span class="code_value">"0.5"</span>
+        <span class="code_attribute">data-to</span>=<span class="code_value">"0"</span>
+        <span class="code_attribute">data-opacity</span>=<span class="code_value">"0"</span>
+        <span class="code_attribute">data-translatex</span>=<span class="code_value">"-200"</span>
+        <span class="code_attribute">data-rotatez</span>=<span class="code_value">"90"</span>
+    &gt;
+        Yup, that's all.
+    &lt;/<span class="code_tag">div</span>&gt;
+&lt;/<span class="code_tag">div</span>&gt;</code></pre>
+
+				</div><!-- column -->
+
+			</div><!-- columns -->
+
+			<div class="columns columns_content">
+
+				<div class="column column_large">
+
+					<h3>Compatibility</h3>
+
+					<p>ScrollMe works fine with just about any up to date browser. It also works in IE10 but if you want support for IE9 you will need to use <a href="https://gist.github.com/paulirish/1579671">a polyfill for requestAnimationFrame</a>.</p>
+
+					<h3>Having trouble?</h3>
+
+					<p>If ScrollMe isn't doing what you expect it to please post an issue on <a href="https://github.com/nckprsn/scrollme/issues">GitHub</a>. You can also get my attention on Twitter: <a href="https://twitter.com/nickpearson">@nickpearson</a></p>
+
+				</div><!-- column -->
+
+			</div><!-- columns -->
+
+		</div><!-- wrapper -->
+
+	</section>
+
+	<hr>
+
+	<section class="section">
+
+		<div class="wrapper">
+
+			<h2 id="options">Options</h2>
+
+			<p>Options are added as attributes to <code class="code_value">scrollme</code> elements with the <code class="code_attribute">data-</code> prefix.</p>
+
+			<dl
+				class="scrollme animateme"
+				data-when="enter"
+				data-from="0.5"
+				data-to="0"
+				data-crop="false"
+				data-opacity="0"
+				data-scale="1.5"
+			>
+				<dt><code class="code_attribute">when</code></dt>
+				<dd>
+					<p>Determines when the scrolling boundaries start and end.</p>
+					<ul>
+						<li><code class="code_value">"enter"</code>: From when the top of the container enters the viewport to when it exits.</li>
+						<li><code class="code_value">"exit"</code>: From when the bottom of the container enters the viewport to when it exits.</li>
+						<li><code class="code_value">"span"</code>: From when the top of the container enters the viewport to when the bottom exits.</li>
+					</ul>
+				</dd>
+			</dl>
+
+			<dl
+				class="scrollme animateme"
+				data-when="enter"
+				data-from="0.5"
+				data-to="0"
+				data-crop="false"
+				data-opacity="0"
+				data-scale="1.5"
+			>
+				<dt><code class="code_attribute">from</code> &amp; <code class="code_attribute">to</code></dt>
+				<dd>
+					<p>Specifies the position within through the scrolling boundaries at which the animation starts and ends. The animated properties are set to their default value up to the <code class="code_attribute">from</code> position then transition to the value defined in the options as scrolling progresses to the <code class="code_attribute">to</code> position.</p>
+					<p>It is important to note that the <code class="code_attribute">from</code> value can be larger than the <code class="code_attribute">to</code> value. This would typically be the case if elements are being animated as they enter the viewport.</p>
+					<p>Value: 0 &ndash; 1</p>
+				</dd>
+			</dl>
+
+			<dl
+				class="scrollme animateme"
+				data-when="enter"
+				data-from="0.5"
+				data-to="0"
+				data-crop="false"
+				data-opacity="0"
+				data-scale="1.5"
+			>
+				<dt><code class="code_attribute">easing</code> (optional)</dt>
+				<dd>
+					<p>Sets the easing function to apply to the animation.</p>
+					<ul>
+						<li><code class="code_value">"easeout"</code>: Starts abruptly and comes to a gradual stop (default).</li>
+						<li><code class="code_value">"easein"</code>: Starts gradually and comes to an abrupt stop.</li>
+						<li><code class="code_value">"easeinout"</code>: Starts and comes to a stop gradually.</li>
+						<li><code class="code_value">"linear"</code>: No easing.</li>
+					</ul>
+				</dd>
+			</dl>
+
+			<dl
+				class="scrollme animateme"
+				data-when="enter"
+				data-from="0.5"
+				data-to="0"
+				data-crop="false"
+				data-opacity="0"
+				data-scale="1.5"
+			>
+				<dt><code class="code_attribute">crop</code> (optional)</dt>
+				<dd>
+					<p>Limits the effect scrolling boundaries to the boundaries of the document. Leaving the boundaries uncropped allows elements to remain unaffected by <code class="code_value">enter</code> effects when they are near the top of the page or, vice versa, by <code class="code_value">exit</code> effects near the bottom.</p>
+					<ul>
+						<li><code class="code_value">"true"</code>: Crops scrolling boundaries to fit within the document boundaries (default).</li>
+						<li><code class="code_value">"false"</code>: Allows scrolling boundaries to exist outside the document boundaries.</li>
+					</ul>
+				</dd>
+			</dl>
+
+			<dl
+				class="scrollme animateme"
+				data-when="enter"
+				data-from="0.5"
+				data-to="0"
+				data-crop="false"
+				data-opacity="0"
+				data-scale="1.5"
+			>
+				<dt><code class="code_attribute">opacity</code> (optional)</dt>
+				<dd>
+					<p>Specifies the opacity of the animated element when scrolling arrives at the the <code class="code_attribute">to</code> position.</p>
+					<p>Value: 0 &ndash; 1</p>
+				</dd>
+			</dl>
+
+			<dl
+				class="scrollme animateme"
+				data-when="enter"
+				data-from="0.5"
+				data-to="0"
+				data-crop="false"
+				data-opacity="0"
+				data-scale="1.5"
+			>
+				<dt><code class="code_attribute">scale</code>, <code class="code_attribute">scalex</code>, <code class="code_attribute">scaley</code> &amp; <code class="code_attribute">scalez</code> (optional)</dt>
+				<dd>
+					<p>Specifies the scale of the animated element (optionally along the X, Y &amp; Z axis) when scrolling arrives at the the <code class="code_attribute">to</code> position.</p>
+					<p>Value: Scaling factor</p>
+				</dd>
+			</dl>
+
+			<dl
+				class="scrollme animateme"
+				data-when="enter"
+				data-from="0.5"
+				data-to="0"
+				data-crop="false"
+				data-opacity="0"
+				data-scale="1.5"
+			>
+				<dt><code class="code_attribute">rotatex</code>, <code class="code_attribute">rotatey</code> &amp; <code class="code_attribute">rotatez</code> (optional)</dt>
+				<dd>
+					<p>Specifies the angle of rotation of the animated element along the X, Y &amp; Z axis when scrolling arrives at the the <code class="code_attribute">to</code> position.</p>
+					<p>Value: angle of rotation in degrees</p>
+				</dd>
+			</dl>
+
+			<dl
+				class="scrollme animateme"
+				data-when="enter"
+				data-from="0.5"
+				data-to="0"
+				data-crop="false"
+				data-opacity="0"
+				data-scale="1.5"
+			>
+				<dt><code class="code_attribute">translatex</code>, <code class="code_attribute">translatey</code> &amp; <code class="code_attribute">translatez</code> (optional)</dt>
+				<dd>
+					<p>Specifies the distance to translate the animated element along the X, Y &amp; Z axis when scrolling arrives at the the <code class="code_attribute">to</code> position.</p>
+					<p>Value: distance in pixels</p>
+				</dd>
+			</dl>
+
+		</div><!-- wrapper -->
+
+	</section>
+
+	<footer class="footer scrollme">
+
+		<div
+			class="footer_block animateme"
+			data-when="enter"
+			data-from="1"
+			data-to="0"
+			data-rotatex="90"
+		>
+
+			<div class="wrapper">
+
+				<h3>Also on this page:</h3>
+
+				<ul>
+					<li><a href="http://www.pixilate.com/font/bellota/">Bellota</a> for the headings.</li>
+					<li><a href="http://www.droidfonts.com/droidfonts/">Droid Serif &amp; Droid Mono</a> for the rest of the type.</li>
+					<li><a href="http://fittextjs.com/">FitText.js</a> to make the big heading big.</li>
+				</ul>
+
+				<p>Made by <a href="http://nckprsn.com">Nick Pearson</a></p>
+
+			</div><!-- wrapper -->
 
 		</div>
-	</div>
-	
-	<div class="scrollme">
-    <div
-        class="animateme"
-        data-when="enter"
-        data-from="0.5"
-        data-to="0"
-        data-opacity="0"
-        data-translatex="-200"
-        data-rotatez="90"
-    >
-        Yup, that's all.
-    </div>
-</div>
-<br><br><br>
-	<script src="assets/jquery_2.1.1.min.js"></script>
-    <script src="assets/jquery.scrollme.js"></script>
-	<script src="assets/app.js"></script>
+
+	</footer>
+
+
+
 </body>
+
 </html>
