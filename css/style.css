@@ -25,32 +25,32 @@ BODY 						{ width:100%; height:100%; margin:0px; padding:0px; color: #000000; }
  
 /* index */
 BODY.index 					{ background-color:#e48382; background-image: url('../assets/background.jpg'); background-repeat:no-repeat; background-attachment:fixed; background-size:cover; }
-.index .section 				{ display: flex; }
+.index .section 			{ display: flex; overflow:hidden; }
 .index .section.three 		{ flex-direction: column; padding: 35px; }
-.index .question				{ display: flex; flex-direction: column; width: 50%; margin-bottom: 50px; user-select: none; -webkit-user-select:none; }
+.index .question			{ display: flex; flex-direction: column; width: 50%; margin-bottom: 50px; user-select: none; -webkit-user-select:none; }
 .index .answer 				{ width: 70%; margin-left: 30%; margin-bottom: 50px; }
-.index .answer .person 			{ color: blue; text-shadow: none; }
+.index .answer .person 		{ color: blue; text-shadow: none; }
 .index .person 				{ font-family: Roboto; font-size: 24px; line-height: 24px; color: rgb(9, 255, 0); text-shadow: 1px 1px 40px black; }
-.index .text 						{ font-family: Roboto,'Times New Roman', Times, serif; font-size: 54px; line-height: 62px; color: #000000; display:inline-block; }
+.index .text 				{ font-family: Roboto,'Times New Roman', Times, serif; font-size: 54px; line-height: 62px; color: #000000; display:inline-block; }
 
 
 /* projects */
-BODY.projects 						{ background: #E9DBED; }
-.projects .section					{ text-align:center; }
+BODY.projects 					{ background: #E9DBED; }
+.projects .section				{ text-align:center; }
 .projects .section .header 		{ max-width:1000px; text-align:center; margin: 0 auto; padding:40px 20px; }
-.projects .section .body 			{ max-width:1000px; text-align:center; margin: 0 auto; padding:20px; }
+.projects .section .body 		{ max-width:1000px; text-align:center; margin: 0 auto; padding:20px; }
 .projects .section .body IMG 	{ text-align:center; width:100%; height:auto; }
 .projects .section .footer 		{ max-width:1000px; text-align:center; margin: 0 auto; padding:40px 20px;}
 
 .projects .section1 .header 	{ /*font-family: Secular One;*/ font-size: 63px; }
 .projects .section1 .body		{}
-.projects .section1 .body IMG {}
-.projects .section1 .footer 		{ /*font-family: Roboto;*/ font-size: 69px; }
+.projects .section1 .body IMG 	{}
+.projects .section1 .footer 	{ /*font-family: Roboto;*/ font-size: 69px; }
 .projects .section2 .body 		{}
-.projects .section2 .body IMG {}
+.projects .section2 .body IMG 	{}
 
 .projects .section3 .body 		{}
-.projects .section3 .body IMG {}
+.projects .section3 .body IMG 	{}
 
 .projects .section4 .body 		{ display: flex; }
 .projects .section4 .header		{ display: flex; flex-direction: column; /*font-family: Roboto;*/ font-size: 61px; width:20%; justify-content: center; justify-content: center; align-items: center; align-content: center; }
@@ -119,7 +119,7 @@ BODY.music { background:#02B4EC; background-image: url('../assets/music.jpg'); b
 
 .music .section .imgs			{ display: flex; flex-direction: row; flex-wrap: wrap;  justify-content: space-around; }
 .music .section .img 			{ display: flex; flex-direction: row; width:calc(100%/5 - 20px); padding:10px; }
-.music .section .img IMG 	{ margin:0px; width:100%; height:auto; display:inline-block; }
+.music .section .img IMG 		{ margin:0px; width:100%; height:auto; display:inline-block; }
 .music .section .img IMG.hide 	{ display:none; }
 
 
